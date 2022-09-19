@@ -6,7 +6,7 @@ f = open('./today_rotor_state.enigma', 'rb')
 r1, r2, r3 = pickle.load(f)
 f.close()
 
-
+print("welcome to yazdan's enigma machine simulator")
 
 def reflector(c):
     return alphabet[len(alphabet)-alphabet.find(c)-1]
